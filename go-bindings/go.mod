@@ -1,3 +1,3 @@
-module github.com/nmarley/bls-signatures/go-bindings
+module github.com/quantumexplorer/bls-signatures/go-bindings
 
 go 1.13

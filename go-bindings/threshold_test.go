@@ -3,7 +3,7 @@ package blschia_test
 import (
 	"testing"
 
-	bls "github.com/nmarley/bls-signatures/go-bindings"
+	bls "github.com/quantumexplorer/bls-signatures/go-bindings"
 )
 
 func TestThreshold(t *testing.T) {
