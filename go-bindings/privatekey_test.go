@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"testing"
 
-	bls "github.com/nmarley/bls-signatures/go-bindings"
+	bls "github.com/quantumexplorer/bls-signatures/go-bindings"
 )
 
 func TestPrivateKey(t *testing.T) {

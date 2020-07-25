@@ -15,9 +15,9 @@ $GOPATH.
 
 ```sh
 # Clone BLS Signatures into $GOPATH and build the C++ library
-mkdir -pv $GOPATH/src/github.com/nmarley/
-git clone https://github.com/nmarley/bls-signatures.git $GOPATH/src/github.com/nmarley/bls-signatures
-cd $GOPATH/src/github.com/nmarley/bls-signatures
+mkdir -pv $GOPATH/src/github.com/quantumexplorer/
+git clone https://github.com/quantumexplorer/bls-signatures.git $GOPATH/src/github.com/quantumexplorer/bls-signatures
+cd $GOPATH/src/github.com/quantumexplorer/bls-signatures
 git submodule update --init --recursive
 mkdir build
 cd build
@@ -45,4 +45,4 @@ go get -u golang.org/x/lint/golint
 
 ## Usage
 
-Please see the [example Go program to demonstrate usage of these Go bindings](https://github.com/nmarley/go-bls-signatures-example).
+Please see the [example Go program to demonstrate usage of these Go bindings](https://github.com/quantumexplorer/go-bls-signatures-example).
